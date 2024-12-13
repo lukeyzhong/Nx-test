@@ -2,7 +2,11 @@
   "name": "@react-monorepo/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+     "postbuild:wishSDK-ui": "node tools/scripts/create-wishSDK-ui-package-json.js",
+     "build:ui": "nx build wishSDK-ui && npm run postbuild:wishSDK-ui",
+     "gcp:auth": "gcloud auth print-access-token"
+  },
   "private": true,
   "dependencies": {
     "react": "18.3.1",

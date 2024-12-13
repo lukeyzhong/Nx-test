@@ -6,13 +6,6 @@
   "tags": [],
   "// targets": "to see all targets run: nx show project wishSDK-ui --web",
   "targets": {
-    "build": {
-      "executor": "@nrwl/webpack:webpack",
-      "options": {
-        "outputPath": "dist/apps/wishSDK-ui",
-        "main": "apps/wishSDK-ui/src/index.ts",
-        "tsConfig": "apps/wishSDK-ui/tsconfig.app.json"
-      }
-    }
+  
   }
 }
