@@ -1,0 +1,8 @@
+{
+  "name": "my-gcp-js-library",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Write tests here!'"
+  }
+}
